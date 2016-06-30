@@ -12,10 +12,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //名前をポチ、年齢3才で、Dogのインスタンスを作成する。
-        Dog dog = new Dog("ポチ", 3);
+        Human human = new Human("ヤツ", 32, "アプリ開発");
 
-        dog.move();
-
+        human.say();
+        human.think();
     }
 
 }
