@@ -4,10 +4,10 @@ import android.util.Log;
 /**
  * Created by admin on 2016/07/01.
  */
-public class Human extends Animal implements Movable{
+public class Human extends Animal implements Thinkable{
 
     // クラス変数
-    static String to_jp = "人";
+    static String hobby;
 
     // コンストラクタ
     public Human(String name, int age, String hobby){
